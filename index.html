@@ -3,8 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Main Street Retreat in Sunapee</title>
-  <meta name="description" content="Main Street Retreat in Sunapee, 7 Main Street, Sunapee, NH 03782. Phone 646-831-6887.">
+  <title>Main Street Retreat in Sunapee, NH</title>
+  <meta name="description" content="Family-friendly vacation home in Sunapee, NH with 4 bedrooms, 2 bathrooms, a game room, saltwater hot tub and deck. Book direct or on Airbnb, VRBO or Booking.com.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Main Street Retreat in Sunapee, NH">
+  <meta property="og:description" content="Spacious, family-friendly vacation home in the heart of Sunapee, NH, close to the lake, beaches, skiing and trails.">
+  <!-- Add once your site is live: <link rel="canonical" href="https://YOUR-DOMAIN/"> and <meta property="og:url" content="https://YOUR-DOMAIN/"> -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Main Street Retreat in Sunapee",
+    "description": "Spacious, family-friendly vacation home in the heart of Sunapee, NH with four bedrooms, two bathrooms, two living rooms, a game room, a saltwater hot tub, a deck and a private yard. Close to Lake Sunapee, beaches, skiing, hiking, biking, fishing and boating.",
+    "telephone": "+1-646-831-6887",
+    "email": "msrsunapee@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7 Main Street",
+      "addressLocality": "Sunapee",
+      "addressRegion": "NH",
+      "postalCode": "03782",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.3873567,
+      "longitude": -72.0870573
+    },
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Hot tub", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Outdoor deck", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Game room", "value": true }
+    ],
+    "sameAs": [
+      "https://www.airbnb.com/rooms/1414631719231487667",
+      "https://www.vrbo.com/4578718",
+      "https://www.booking.com/hotel/us/main-street-retreat-in-sunapee.html",
+      "https://www.instagram.com/mainstreetretreatsunapee/"
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
@@ -165,6 +203,20 @@
 
     .direct-options a { font-size: 1.05rem; }
 
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      background: var(--forest);
+      color: #fff;
+      transition: background 0.2s ease;
+    }
+    .social-link:hover { background: var(--moss); color: #fff; }
+    .social-link svg { width: 1.6rem; height: 1.6rem; }
+
     .details {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -238,8 +290,8 @@
   <header class="banner">
 
     <div class="banner-inner">
-      <h1>Welcome to Main Street Retreat in Sunapee</h1>
-      <p class="soon">Content coming soon.</p>
+      <h1>Welcome to Main Street Retreat in Sunapee, NH</h1>
+      <p class="soon">More content coming soon....</p>
     </div>
 
     <svg class="hills" viewBox="0 0 1200 110" preserveAspectRatio="none" aria-hidden="true">
@@ -252,11 +304,10 @@
     <section class="about" aria-labelledby="about-heading">
       <h2 id="about-heading">About us</h2>
       <p>
-        Main Street Retreat in Sunapee is a family-friendly vacation home with
-        plenty of room to spread out. The house has four bedrooms, two bathrooms,
-        and two living rooms, plus an extra game room. Outside, you can relax
-        on the deck, soak in the saltwater hot tub, or gather around the Mexican-style
-        fireplace in the private yard.
+        Main Street Retreat in Sunapee is a spacious, family-friendly vacation
+        home in the heart of Sunapee. The house has four bedrooms, two bathrooms,
+        and two living rooms, plus an extra game room. Outside, you can relax on
+        the deck, soak in the saltwater hot tub, or enjoy the private yard.
       </p>
     </section>
 
@@ -289,7 +340,7 @@
           </dd>
         </div>
         <div class="detail">
-          <dt>Cell Phone</dt>
+          <dt>Phone</dt>
           <dd><a href="tel:+16468316887">646-831-6887</a></dd>
         </div>
         <div class="detail">
@@ -297,6 +348,17 @@
           <dd><a href="mailto:msrsunapee@gmail.com">msrsunapee@gmail.com</a></dd>
         </div>
       </dl>
+    </section>
+
+    <section aria-labelledby="follow-heading">
+      <h2 id="follow-heading">Follow us</h2>
+      <a class="social-link" href="https://www.instagram.com/mainstreetretreatsunapee/" target="_blank" rel="noopener noreferrer" aria-label="Follow Main Street Retreat in Sunapee on Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
     </section>
 
     <section aria-labelledby="map-heading">
